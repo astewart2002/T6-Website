@@ -131,7 +131,7 @@
     height: 60vh;
     max-width: 100%;
     justify-content: center;
-    background: url(images/heroimage.png);
+    background: url(Images/heroimage.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -197,7 +197,7 @@
         height: 40vh;
         max-width: 100%;
         justify-content: center;
-        background: url(images/heroimage.png);
+        background: url(Images/heroimage.png);
         background-position:left;
         background-repeat: no-repeat;
         background-size: cover;
@@ -272,7 +272,7 @@
     float:left;
   }
 
-  /* flexing child elements into a row so the images are next to each other */
+  /* flexing child elements into a row so the Images are next to each other */
   .jewellery-container {
     display: flex;
     flex-direction: row;
@@ -450,7 +450,7 @@
     position: relative;
     height: 200px;
     max-width: 100%;
-    background: url(images/salepagebanner.png);
+    background: url(Images/salepagebanner.png);
     background-position:center;
     background-repeat: repeat;
     box-shadow: 0 -4px 12px 5px rgba(0,0,0,0.5);
@@ -470,7 +470,7 @@
   /* how the sale page appears on mobile */
   @media only screen and (max-width:700px){
     .salepage-banner {
-        background: url(images/shopsalebanner.png);
+        background: url(Images/shopsalebanner.png);
         top: 76.4px; 
         display: flex;
         height: 140px;
@@ -675,7 +675,7 @@
     float: left;
 }
 
-/* where the images appear  */
+/* where the Images appear  */
 .item-page-left {
     padding-top: 5%;
     max-width: 55%;
@@ -684,7 +684,7 @@
     display: flex;
 }
 
-/* container for product images */
+/* container for product Images */
 .carousel-container {
     padding-top: 7%;
     display: flex;
@@ -696,7 +696,7 @@
     max-width: 33%;
 }
 
-/* blue border effect as user hovers over images consistent with rest of site  */
+/* blue border effect as user hovers over Images consistent with rest of site  */
 .item-page-left img:hover {
     border: solid 7px rgba(4,77,255,1);
     padding: auto;
@@ -936,8 +936,8 @@ label.radio input:checked+span {
     align-content: center;
   }
 
-  /* product images of products in the cart  */
-  .cart-images {
+  /* product Images of products in the cart  */
+  .cart-Images {
     width: auto;
     align-self: center;
   }
@@ -1090,7 +1090,7 @@ label.radio input:checked+span {
       overflow: hidden;
     }
 
-    .cart-images {
+    .cart-Images {
         height: 70px;
         justify-self: center;
     }
