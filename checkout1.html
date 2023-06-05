@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Checkout</title>
+<link rel="stylesheet" href="stylesheet.css">
+<link rel="jsfile" href="jsfile.js">
+</head>
+
+<body>
+    <header>
+        <!-- nav bar  -->
+        <a class="T6-logo" href="Home.html">T6</a> 
+        <nav>
+            <!-- burger menu for mobile  -->
+            <div class="burgermenu">
+                <span class="burgline-1"></span>
+                <span class="burgline-2"></span>
+                <span class="burgline-3"></span>
+              </div>  
+            <ul class="navbar-list">
+                <li><a  href="#">About</a></li>
+                <li><a  href="#">Contact</a></li>
+                <a class="search-btn" href="#"><button>Search</button></a>
+                <li><a id="cart-header-total" href="Bag.html">Cart (3)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- body of checkout page  -->
+    <div class="checkout-page-body">
+        <!-- personal details section  -->
+        <div class="personal-details-container">
+            <h1 class="checkout-heading">Personal Details</h1>
+            <div class="personal-details-content">
+                <h4>Mobile Number</h4>
+                <hr>
+                <h4>Email Address</h4>
+                <hr>
+                <h4>Apartment, Suite, Unit (optional)</h4>
+                <hr>
+                <h4>Postcode</h4>
+                <hr>
+            </div>
+        </div>
+        <!-- shipping method section  -->
+        <div class="shipping-method-container">
+            <h1 class="checkout-heading">Shipping Method</h1>
+            <div class="personal-details-content">
+                <button id="delivery-button">IN STORE PICKUP (FREE)</button>
+                <button id="delivery-button">STANDARD SHIPPING - $9.99</button>
+                <button id="delivery-button">EXPRESS SHIPPING - $20.00</button>
+            </div>
+        </div>
+        <!-- payment container section  -->
+        <div class="payment-container">
+            <h1 class="checkout-heading">Payment</h1>
+            <div class="personal-details-content">
+                <h4>Card Number</h4>
+                <hr>
+                <h4>Name</h4>
+                <hr>
+                <h4>MM/DD</h4>
+                <hr>
+                <h4>Code</h4>
+                <hr>
+            </div>
+            <!-- order summary  -->
+            <div class="checkout-order-summary">
+                <h2 id="order-summary">Order Summary</h2>
+                <h4>Subtotal: $370</h4>
+                <h4>Tax: $3.60</h4>
+                <h4>Delivery: $20</h4>
+                <h4 id="total">Total: $390.60</h4>
+                <a href="orderconf.html"><button id="checkout-button">CHECKOUT</button></a>
+            </div>
+        </div>
+    </div>
+   
+
+</body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shopping Cart</title>
+<link rel="stylesheet" href="stylesheet.css">
+<script src="jsfile.js"></script>
+</head>
+
+<body>
+    <header>
+        <!-- nav bar -->
+        <a class="T6-logo" href="Home.html">T6</a> 
+        <nav>
+            <!-- burger menu for mobile  -->
+            <div class="burgermenu">
+                <span class="burgline-1"></span>
+                <span class="burgline-2"></span>
+                <span class="burgline-3"></span>
+              </div>  
+            <ul class="navbar-list">
+                <li><a  href="#">About</a></li>
+                <li><a  href="#">Contact</a></li>
+                <a class="search-btn" href="#"><button>Search</button></a>
+                <li><a id="cart-header-total" href="#">Cart (3)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <div class="shopping-cart">
+        <!-- breadcrumbs  -->
+        <div id="bag-back-to-sale" class="item-page-breadcrumbs">
+            <a class="back-home-btn" id="products-back" href="salepage.html">Back to Sale</a>
+        </div>
+
+        <!-- Shopping cart header -->
+        <div class="title">
+          Shopping Bag
+        </div>
+       
+        <!-- Product #1 -->
+        <div id="item-1" class="cart-item">
+          <div onclick="removeItem('item-1'); itemQuant1 = 0;" class="buttons">
+            <span class="delete-btn">X</span>
+          </div>
+       
+          <div class="cart-image-container">
+            <img class="cart-images" src="images/prodimg-10.jpg" alt="" />
+          </div>
+       
+          <div class="description">
+            <span>Wackie Ju</span>
+            <span>3D Indent Tank</span>
+            <span>White</span>
+          </div>
+
+          <div class="total-price">$549</div>
+       
+          <!-- quantity buttons -->
+          <div class="quantity">
+            <button onclick="minus(3)">-</button>
+            <input id="item-count-3" type="text" name="name" value="1">
+            <button onclick="plus(3)">+</button>
+          </div>
+       
+        </div>
+       
+        <!-- Product #2 -->
+        <div id="item-2" class="cart-item">
+          <div onclick="removeItem('item-2'); itemQuant2 = 0;" class="buttons">
+            <span class="delete-btn">X</span>
+          </div>
+       
+          <div class="cart-image-container">
+            <img class="cart-images" src="images/prod-img1.jpg" alt=""/>
+          </div>
+       
+          <div class="description">
+            <span>Wackie Ju</span>
+            <span>3D Indent Tank</span>
+            <span>White</span>
+          </div>
+
+          <div class="total-price">$270</div>
+       
+          <div class="quantity">
+            <button onclick="minus(3)">-</button>
+            <input id="item-count-3" type="text" name="name" value="1">
+            <button onclick="plus(3)">+</button>
+          </div>
+       
+        </div>
+       
+        <!-- Product #3 -->
+        <div id="item-3" class="cart-item">
+          <div onclick="removeItem('item-3'); itemQuant3 = 0;" class="buttons">
+            <span class="delete-btn">X</span>
+          </div>
+       
+          <div class="cart-image-container">
+            <img class="cart-images" src="images/prod-img2.jpg" alt="" />
+          </div>
+       
+          <div class="description">
+            <span>604 Service</span>
+            <span>Sheer Floral Top</span>
+            <span>Black</span>
+          </div>
+
+          <div class="total-price">$100</div>
+       
+          <div class="quantity">
+            <button onclick="minus(3)">-</button>
+            <input id="item-count-3" type="text" name="name" value="1">
+            <button onclick="plus(3)">+</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- order summary component -->
+    <div class="order-summary">
+        <div class="order-summary-container">
+            <h1 class="order-summary-title">Order Summary</h1>
+            <h4 class="order-summary-delivery">Delivery: Calculated at next step</h4>
+            <h4 class="order-summary-info">Subtotal: $919.00</h4>
+        </div>
+        <div class="checkout-button">
+            <a href="checkout1.html"><button id="checkout-button">CHECKOUT</button></a>
+        </div>
+    </div>
+
+</body>
+
+</html>
