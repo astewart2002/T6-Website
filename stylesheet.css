@@ -419,7 +419,7 @@
     position: absolute;
     font-size: 4.3em;
     text-decoration: underline;
-    font-family: Power Grotesk Trial, Kanit;
+    font-family: Power Grotesk Trial, 'Kanit';
     color: white;
     z-index: 999;
   }
@@ -460,7 +460,7 @@
 
   .sale-page-tagline {
     display: none;
-    font-family: Power Grotesk Trial, Kanit;
+    font-family: Power Grotesk Trial, 'Kanit';
     font-size: 1.5em;
     color: white;
     position: relative;
@@ -587,7 +587,7 @@
 
   /* descriptive text for products  */
   .brand-info {
-    font-family: Power Grotesk Trial, Kanit;
+    font-family: Power Grotesk Trial, 'Kanit';
     font-size: 1.1em;
     margin-bottom: 5px;
   }
@@ -734,7 +734,7 @@
 }
   
 .bold-product-title {
-    font-family: Power Grotesk Trial, Kanit
+    font-family: Power Grotesk Trial, 'Kanit';
 }
 
 /* size button styling */
@@ -908,7 +908,7 @@ label.radio input:checked+span {
 }
 
 .title {
-    font-family: Power Grotesk Trial, Kanit;
+    font-family: Power Grotesk Trial, 'Kanit';
     height: 10%;
     border-bottom: 1px solid #E1E8EE;
     padding: 30px 0px;
@@ -1046,7 +1046,7 @@ label.radio input:checked+span {
   .order-summary-title {
     padding-bottom: 10%;
     padding-top: 5%;
-    font-family: Power Grotesk Trial, Kanit;
+    font-family: Power Grotesk Trial, 'Kanit';
     padding-left: 5%;
     padding-right: 5%;  
   }
@@ -1207,7 +1207,7 @@ label.radio input:checked+span {
   }
 
   .checkout-heading {
-    font-family: Power Grotesk Trial, Kanit;
+    font-family: Power Grotesk Trial, 'Kanit';
     padding-bottom: 70px;
   }
 
@@ -1241,7 +1241,7 @@ label.radio input:checked+span {
   }
 
   #order-summary {
-    font-family: Power Grotesk Trial, Kanit;
+    font-family: Power Grotesk Trial, 'Kanit';
     padding-bottom: 20px;
   }
 
@@ -1276,7 +1276,7 @@ label.radio input:checked+span {
 }
 
 .order-conf-heading {
-    font-family: Power Grotesk Trial, Kanit;
+    font-family: Power Grotesk Trial, 'Kanit';
     font-size: 3em;
 }
 
