@@ -131,7 +131,7 @@
     height: 60vh;
     max-width: 100%;
     justify-content: center;
-    background: url(Images/heroimage.png);
+    background: url(/Images/heroimage.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
